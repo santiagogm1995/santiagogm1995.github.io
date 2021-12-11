@@ -1,8 +1,15 @@
 ## Logging into Cloud Foundry with a custom script.
 
+A couple of days I made a script that I used to log into Cloud Foundry. I created this script to automate the process of logging.
+
 ---
 
 ### Prerequisites.
+
+You'll need to install the folowing:
+
+- Cloud Foundry CLI (In my case i used [Cloud Foundry CLI v6.0.0]) : It's needed to login to the cloud foundry.
+- Obviously you'll need to have a cloud foundry account.
 
 #### Script code:
 
@@ -22,7 +29,7 @@ if ($pass -eq $null -or $user -ne [String]::Empty) {
         [Runtime.InteropServices.Marshal]::SecureStringToBSTR($pass))
 }
 
-If ($user -eq [String]::Empty) { $user = "santiago.gonzalez.mota@everis.com" }
+If ($user -eq [String]::Empty) { $user = "youUser@gmail.com" }
 
 cf login -a $url -u $user -p $pass
 ```
