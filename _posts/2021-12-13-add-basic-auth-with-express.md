@@ -39,4 +39,4 @@ Error:
 
 Correct:
 
-<img src="./img/basic.auth-okey.png">
+<img src="./_posts/img/basic.auth-okey.png">
