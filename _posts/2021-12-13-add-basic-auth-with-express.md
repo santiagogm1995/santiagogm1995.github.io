@@ -15,14 +15,14 @@ Setup with my personal versions:
 
 Firt we need to install the dependencies:
 
-```bash
+```sh
     npm install express #version 4.17.1
     npm install express-basic-auth #version 1.2.1
 ```
 
 Add the following code to your server.js file:
 
-```javascript
+```js
 const app = express();
 const express = require("express");
 app.use(
@@ -31,12 +31,3 @@ app.use(
   })
 );
 ```
-
-#### Test it with Postman:
-
-Error:
-<img src="./img/basic.auth-error.png">
-
-Correct:
-
-<img src="./img/basic.auth-okey.png">
