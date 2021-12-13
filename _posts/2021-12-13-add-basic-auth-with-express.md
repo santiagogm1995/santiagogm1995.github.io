@@ -15,7 +15,7 @@ Setup with my personal versions:
 
 Firt we need to install the dependencies:
 
-```sh
+```bash
     npm install express #version 4.17.1
     npm install express-basic-auth #version 1.2.1
 ```
@@ -31,6 +31,16 @@ app.use(
   })
 );
 ```
+
+#### Test it with Postman:
+
+Error:
+<img src="/content/images/2021/21/basic.auth-error.png">
+
+Correct:
+
+<img src="/content/images/2021/12/basic.auth-okey.png">
+
 
 And that's it. Now you can access your application with basic auth.
 
