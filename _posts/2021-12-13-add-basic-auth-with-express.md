@@ -35,7 +35,7 @@ app.use(
 #### Test it with Postman:
 
 Error:
-<img src="/content/images/2021/21/basic.auth-error.png">
+<img src="/content/images/2021/12/basic.auth-error.png">
 
 Correct:
 
