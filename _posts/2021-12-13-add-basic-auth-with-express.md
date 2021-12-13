@@ -31,3 +31,7 @@ app.use(
   })
 );
 ```
+
+And that's it. Now you can access your application with basic auth.
+
+See you in the next post. :D
