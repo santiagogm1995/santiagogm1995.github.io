@@ -6,7 +6,7 @@ In this post I'll show you how to add basic auth to your application.
 
 ### Prerequisites.
 
-Setup with my personal versions:
+Installed programs: (the versions are only in my case)
 
 - Nodejs (https://nodejs.org/en/): v14.17.6
 - npm: 6.14.15
