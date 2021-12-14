@@ -11,6 +11,7 @@ Setup with my personal versions:
 - Nodejs (https://nodejs.org/en/): v14.17.6
 - npm: 6.14.15
 
+### Start.
 #### Script code:
 
 First we need to install the dependencies:
