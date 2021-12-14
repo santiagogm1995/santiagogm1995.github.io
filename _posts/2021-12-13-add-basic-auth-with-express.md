@@ -13,7 +13,7 @@ Setup with my personal versions:
 
 #### Script code:
 
-Firt we need to install the dependencies:
+First we need to install the dependencies:
 
 ```bash
     npm install express #version 4.17.1
